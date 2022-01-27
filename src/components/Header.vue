@@ -9,8 +9,9 @@
                 </el-button>
                 <template #dropdown>
                     <el-dropdown-menu>
-                        <el-dropdown-item @click="$router.push('/')">个人信息</el-dropdown-item>
-                        <el-dropdown-item @click="$router.push('/')">退出系统</el-dropdown-item>
+                        <el-dropdown-item @click="$router.push('/')">Profile</el-dropdown-item>
+                        <el-dropdown-item @click="$router.push('/')">Settings</el-dropdown-item>
+                        <el-dropdown-item @click="$router.push('/')">Logout</el-dropdown-item>
                     </el-dropdown-menu>
                 </template>
             </el-dropdown>
